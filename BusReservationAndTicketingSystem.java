@@ -70,16 +70,16 @@ public class BusReservationAndTicketingSystem {
 							int print = 1;
 
 							// display first the Destination Details//
-							System.out.println("***************************************");
-							System.out.println("**   DESTINATION   |  FARE  |  SEAT  **");
-							System.out.println("***************************************");
-							System.out.println("** 1.)DUBLIN   | EUR30 |   " + available[1] + "   **");
-							System.out.println("** 2.)THE CLIFFS OF MOHER  | EUR17 |   " + available[2] + "   **");
-							System.out.println("** 3.)CORK   | EUR15 |   " + available[3] + "   **");
-							System.out.println("** 4.)ARAN ISLANDS       | EUR20 |   " + available[4] + "   **");
-							System.out.println("** 5.)LIMERICK      | EUR25 |   " + available[5] + "   **");
-							System.out.println("***************************************");
-							System.out.println("***************************************\n");
+							System.out.println("************************************************");
+							System.out.println("**    DESTINATION     |  FARE |    SEAT       **");
+							System.out.println("************************************************");
+							System.out.println("** 1.)DUBLIN          | EUR30 | " + available[1] + "  	      **");
+							System.out.println("** 2.)CLIFFS OF MOHER | EUR17 | " + available[2] + "  	      **");
+							System.out.println("** 3.)CORK            | EUR15 | " + available[3] + "  	      **");
+							System.out.println("** 4.)ARAN ISLANDS    | EUR20 | " + available[4] + "  	      **");
+							System.out.println("** 5.)CORK            | EUR25 | " + available[5] + "  	      **");
+							System.out.println("************************************************");
+							System.out.println("************************************************\n");
 							System.out.println("STUDENT, & SENIOR CITIZEN with 20% DISCOUNT!!!\n");
 
 							if ((available[1] == 0) && (available[2] == 0) && (available[3] == 0) && (available[4] == 0)
